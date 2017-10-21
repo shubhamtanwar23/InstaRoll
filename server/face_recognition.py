@@ -1,4 +1,4 @@
-import scipy.misc
+import cv2
 import dlib
 import numpy as np
 
@@ -60,7 +60,7 @@ class FaceRecognition :
 		Output:
 		Return a numpy object having image contents
 		'''
-		return scipy.misc.imread(file, mode='RGB')
+		return cv2.imread(file)
 
 	def face_distance(self, face_encodings, face_to_compare):
 		"""
