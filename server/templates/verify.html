@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Verified images</title>
+</head>
+<body>
+	<h1> Recognised faces in the imgae are </h1>
+        <ol>
+        	{%for name in names %}
+        	{% if name != "Unknown"%}
+        	<li>{{name}}</li>
+        	{% endif %}
+            {% endfor %}
+        </ol>
+        <img src= "{{url_for('send_file', filename=filename)}}" >
+</body>
+</html>
