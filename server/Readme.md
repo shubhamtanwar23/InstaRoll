@@ -1,5 +1,10 @@
 # Flask Server Implementation
 
+## Flask
+[Flask](http://flask.pocoo.org/) is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+
+To learn more about the flash you can check out its documentation [here](http://flask.pocoo.org/docs/0.12/)
+
 ## Requirements
 Python 3.x, flask and some more dependencies. 
 
