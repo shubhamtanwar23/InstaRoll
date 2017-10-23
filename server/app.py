@@ -54,6 +54,7 @@ def generate_encoding(img_path, name='', use='send'):
 
 def recognise_faces(img_enc):
     '''
+     Recognise the face and return the name
     '''
     saved_enc, saved_label = read_save_encodings()
     face_names = []
