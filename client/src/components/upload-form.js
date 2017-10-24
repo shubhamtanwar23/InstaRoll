@@ -24,7 +24,7 @@ export default class SelectForm extends React.Component {
 				</CardSection>
 				<CardSection>
 					<Button onPress={this.props.onPress}>
-						Select Photo
+						Upload Photo
 					</Button>
 				</CardSection>
 			</Card>
